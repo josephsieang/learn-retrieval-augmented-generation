@@ -20,6 +20,12 @@ source .venv/bin/activate
 .venv/bin/pip3 install -r requirements.txt
 ```
 
+Generate test data:
+
+```
+./generate-test-data.py
+```
+
 Here is a summary of what this repository will use:
 
 1. [Qdrant](https://github.com/qdrant/qdrant) for the vector database. We will use an in-memory database for the examples
